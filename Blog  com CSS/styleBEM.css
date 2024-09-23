@@ -1,0 +1,87 @@
+* {
+    background-color: rgb(210, 230, 210);
+}
+.cabecalho{
+    
+}
+.cabecalho_imagem{
+    width: 10vw;
+    height: 10vh;
+    display: block;
+    margin:auto;
+    border-radius: 5%;
+   
+}
+
+.cabecalho_menu{
+    /*tamanho e espaçamento*/
+}
+
+.cabecalho_lista{
+    /* tirar bolinha
+    alterar a cor
+    colocar lado a lado*/
+}
+
+.cabecalho_lista--central{
+    text-align: center;
+}
+
+.cabecalho_titulo{
+    color:rgb(40, 77, 40);
+    text-align: center;
+    border-bottom: 1px solid green; 
+    border-top: 1px solid green;
+}
+
+.principal{
+    width: 95vw;
+    height: 75vh;
+    display: block;
+    margin:auto;
+}
+
+.gasolina{
+
+}
+.gasolina_titulo{
+     /* cor, tamanho, fonte*/
+}
+
+.gasolina_paragrafo{
+    /* cor, tamanho, fonte*/
+}
+
+.etanol{
+
+}
+
+.etanol_titulo{
+    /* cor, tamanho, fonte*/
+}
+
+.etanol_paragrafo{
+   /* cor, tamanho, fonte*/
+}
+
+.etanol_paragrafo--corRosa{
+    
+}
+
+.etanol_paragrafo--corAzul{
+    
+}
+
+.diesel{
+
+}
+
+.diesel_titulo{
+    /* cor, tamanho, fonte*/
+}
+
+.diesel_paragrafo{
+   /* cor, tamanho, fonte*/
+}
+
+
