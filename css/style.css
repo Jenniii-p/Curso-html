@@ -1,0 +1,15 @@
+*  {
+    background-color: rgb(0, 251, 33, 0.269)
+}
+
+.link{
+   color: aqua;
+}
+
+.link--referencia{
+    background-color: blueviolet;
+}
+.link--menu{
+    background-color: black;
+}
+
