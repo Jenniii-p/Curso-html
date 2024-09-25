@@ -1,0 +1,56 @@
+/*Atividade 1 */
+.caixa{
+    width: 20%;
+    height:28vh;
+    padding: 15px;
+    float: left;
+    margin: 20px;
+}
+
+.caixa-rosa {
+    border: 2px solid rgb(255, 1, 174);
+    background: rgb(239, 89, 196);
+}
+
+.caixa-amarela {
+    border: 2px solid rgb(242, 255, 0);
+    background: rgb(210, 235, 86);
+
+}
+
+.caixa-laranja {
+    border: 2px solid orange;
+    background: rgb(248, 168, 92);
+
+}
+
+.secoes {
+    border-bottom: 2px dashed purple;
+    min-height: 50vh;
+}
+
+.campo {
+    padding: 5px;
+    border:1px solid purple;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.botao {
+    padding:5px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: rgb(235, 11, 235);
+    min-width: 180px;
+}
+
+.formulario {
+    margin-left: 50%;
+}
+
+.imagem-formulario {
+    margin-left: 4%;
+    width: 100px;
+    height: 100px;
+
+}
