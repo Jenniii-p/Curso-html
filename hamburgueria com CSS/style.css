@@ -1,0 +1,54 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;   
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.fundo{
+    background-color:yellow;
+    min-height: 340px;
+    width: 100%;
+    
+}
+
+.card {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    
+}
+
+.card-promocao {
+    background:linear-gradient(to left,yellow,red);
+    justify-content:center;
+    margin-right: 35%;
+    float: right;
+    max-width: 500px;
+    margin-top: 4%;
+}
+
+.card-coluna {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card img{
+    padding: 20px;
+}
