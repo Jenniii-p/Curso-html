@@ -75,6 +75,7 @@
     flex-direction: row;
     justify-content: space-around;
     width: 50%;
+    background-color: rgb(221, 44, 121);
 }
 
 .menu li {
@@ -138,3 +139,98 @@
     font-weight: bold;
     text-align: center;
 }
+
+.caixa-estatica {
+    width: 200px;
+    height:200px;
+    border: 1px solid pink;
+    position:static;
+}
+
+.caixa-relativa {
+    width:200px;
+    height:200px;
+    border:1px solid pink;
+    position:relative;
+    top:20px;
+    bottom: 50px;
+    left: 100px;
+    right: 70px;
+}
+
+.caixa-fixa {
+    width: 200px;
+    height: 200px;
+    border:1px solid pink;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: pink;
+    z-index: 1;
+}
+
+.caixa-grudada {
+    width: 200px;
+    height: 200px;
+    border:1px solid pink;
+    position: sticky;
+    top:0;
+    background-color: pink;
+    z-index: -1;
+}
+
+.caixa-absoluta {  
+    width: 200px;
+    height: 200px;
+    border:1px solid pink;
+    position: absolute;
+    bottom:50px;
+    z-index: -1;
+    
+}
+
+.grudar {
+    position: sticky;
+    top: 0;
+    }
+
+.iconeFixo{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    align-items: center; /* alinha verticalmente*/
+    align-content: center;/*alinha horizontalmente*/
+}
+
+.redes li {
+    list-style: none;
+}
+
+.redes a {
+    text-decoration: none;
+}
+
+.redes img{
+    width: 50px;
+    height: 50px;
+}
+
