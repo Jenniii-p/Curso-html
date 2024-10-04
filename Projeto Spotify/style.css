@@ -1,0 +1,20 @@
+* {
+    background-color: pink;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns:60% 40%;
+   
+}
+
+nav {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+}

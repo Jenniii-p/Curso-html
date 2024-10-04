@@ -1,0 +1,80 @@
+[dt-info]{
+    background-color: pink;
+}
+
+.container, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    justify-content: space-around;
+}
+
+.container {
+    justify-content: center;
+}
+
+input{
+    border: 2px solid pink;
+}
+
+input:hover{
+    border: 2px solid hotpink;
+}
+
+.campo-checkbox:checked {
+    box-shadow: 0 0 0 1px;
+}
+
+.info-oculta {
+    display: none;
+}
+
+.mostrar-info:hover + .info-oculta {
+    display: block;
+}
+
+.menu-oculto{
+    display: none;
+}
+
+.menu-hover:hover .menu-oculto {
+    display: block;
+}
+
+.descubra{
+    border:2px solid pink;
+    background-color:pink ;
+}
+
+.descubra:hover {
+    border:2px solid hotpink;
+}
+
+.fraseOculta{
+    display: none;
+}
+
+.descubra:hover + .fraseOculta {
+    display: block;
+}
+
+.tooltip{
+    display: none;
+    position: absolute;
+}
+
+.input-tooltip:hover .tooltip{
+    display: block;
+}
+
+body{
+    background-color: bisque;
+}
+
+@media (max-width:450px){
+    body{
+        background-color: plum;
+    }
+}
